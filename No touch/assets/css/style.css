@@ -1,0 +1,81 @@
+@charset "utf-8";
+* {
+    margin-left: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    margin-top: 2%;
+    background: rgba(0,0,0,.01);
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: rgb(87, 86, 86);
+}
+
+.h1-location {
+    color: rgb(199, 201, 75);
+}
+
+.navigation-item {
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.navigation-item:hover {
+    background-color: hsla(231, 34%, 43%, 0.663);
+    color: rgb(199, 201, 75);
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.h1-Plot {
+    color: hsla(231, 34%, 43%, 0.663);
+}
+
+#my-site {
+    text-decoration: none;
+    color: #000;
+}
+
+#my-site:hover {
+    color: rgb(199, 201, 75);;
+}
+
+#img-var-bandosu {
+    width: 325px;
+    height: 180px;
+}
+
+.p-1-3 {
+    background: rgba(0,0,0,.01);
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: rgb(87, 86, 86);
+}
+
+.dark {
+    background: rgba(0,0,0,.01);
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: rgb(87, 86, 86);
+}
+
+.text-p-syget {
+    background: rgba(0,0,0,.01);
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: #444;
+}
